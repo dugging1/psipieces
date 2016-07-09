@@ -1,0 +1,41 @@
+Symbol range map extraction starting
+Processing 10 files
+startProcessing "dugging\psipieces\ModSpellPieces.java" md5: ceb87c964ae5f3a22e83e7dfe211d800
+Cache Hit!
+endProcessing "dugging\psipieces\ModSpellPieces.java"
+
+startProcessing "dugging\psipieces\lib\LPieceNames.java" md5: c14735c0ab25b3413f1cffe708a293c2
+Cache Hit!
+endProcessing "dugging\psipieces\lib\LPieceNames.java"
+
+startProcessing "dugging\psipieces\lib\LResources.java" md5: 06fbd2159463cb6b38bd8fd5f53d0be6
+Cache Hit!
+endProcessing "dugging\psipieces\lib\LResources.java"
+
+startProcessing "dugging\psipieces\proxy\ClientProxy.java" md5: 2e1af3a0929cf8ff81d5c4adaadbb0bd
+Cache Hit!
+endProcessing "dugging\psipieces\proxy\ClientProxy.java"
+
+startProcessing "dugging\psipieces\proxy\CommonProxy.java" md5: 48c75079af590a6b1a7fd444563c1ffd
+Cache Hit!
+endProcessing "dugging\psipieces\proxy\CommonProxy.java"
+
+startProcessing "dugging\psipieces\proxy\IProxy.java" md5: 022f226a588d38946d8f7b2e1a8fe469
+Cache Hit!
+endProcessing "dugging\psipieces\proxy\IProxy.java"
+
+startProcessing "dugging\psipieces\proxy\ServerProxy.java" md5: f85f76bfd96d41efe188fb8c0c30d4d5
+Cache Hit!
+endProcessing "dugging\psipieces\proxy\ServerProxy.java"
+
+startProcessing "dugging\psipieces\psipieces.java" md5: 754a29b634896c82ab2cf8214d46ba88
+Cache Hit!
+endProcessing "dugging\psipieces\psipieces.java"
+
+startProcessing "dugging\psipieces\spell\trick\PieceTrickDebug2.java" md5: ceb634911fafd9c75c9b20e7402fdcb0
+Cache Hit!
+endProcessing "dugging\psipieces\spell\trick\PieceTrickDebug2.java"
+
+startProcessing "dugging\psipieces\spell\trick\PieceTrickTag.java" md5: 7f83d5f8c117795d1f6e71f91934b62f
+endProcessing "dugging\psipieces\spell\trick\PieceTrickTag.java"
+

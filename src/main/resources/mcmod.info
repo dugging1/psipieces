@@ -1,0 +1,17 @@
+[
+{
+  "modid": "PSIPieces",
+  "name": "PSI Pieces",
+  "description": "Psionic SpellCasting Code Development",
+  "version": "1.10-1.0.0.1",
+  "mcversion": "1.10",
+  "logoFile": "",
+  "authorList": ["dugging"],
+  "credits": "",
+  "parent": "",
+  "screenshots": [],
+  "requiredMods": ["Psi"],
+  "dependencies": ["Psi"],
+  "useDependencyInformation": true
+}
+]

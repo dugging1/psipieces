@@ -1,0 +1,312 @@
+Symbol range map extraction starting
+Processing 10 files
+startProcessing "dugging\psipieces\ModSpellPieces.java" md5: ceb87c964ae5f3a22e83e7dfe211d800
+Cache Hit!
+@|dugging\psipieces\ModSpellPieces.java|8|25|dugging.psipieces|package|dugging.psipieces|(file)
+Class Start: dugging.psipieces.ModSpellPieces
+   @|dugging\psipieces\ModSpellPieces.java|305|319|ModSpellPieces|class|dugging.psipieces.ModSpellPieces
+   @|dugging\psipieces\ModSpellPieces.java|340|398|vazkii.psi.common.spell.base.ModSpellPieces.PieceContainer|class|vazkii.psi.common.spell.base.ModSpellPieces.PieceContainer
+   @|dugging\psipieces\ModSpellPieces.java|340|398|vazkii.psi.common.spell.base.ModSpellPieces.PieceContainer|class|vazkii.psi.common.spell.base.ModSpellPieces.PieceContainer
+   @|dugging\psipieces\ModSpellPieces.java|399|410|trickDebug2|field|dugging.psipieces.ModSpellPieces|trickDebug2|
+   @|dugging\psipieces\ModSpellPieces.java|430|488|vazkii.psi.common.spell.base.ModSpellPieces.PieceContainer|class|vazkii.psi.common.spell.base.ModSpellPieces.PieceContainer
+   @|dugging\psipieces\ModSpellPieces.java|430|488|vazkii.psi.common.spell.base.ModSpellPieces.PieceContainer|class|vazkii.psi.common.spell.base.ModSpellPieces.PieceContainer
+   @|dugging\psipieces\ModSpellPieces.java|489|497|trickTag|field|dugging.psipieces.ModSpellPieces|trickTag|
+   Method Start: init()V
+      @|dugging\psipieces\ModSpellPieces.java|523|527|init|method|dugging.psipieces.ModSpellPieces|init|()V
+      @|dugging\psipieces\ModSpellPieces.java|540|551|trickDebug2|field|dugging.psipieces.ModSpellPieces|trickDebug2
+      @|dugging\psipieces\ModSpellPieces.java|554|562|register|method|vazkii.psi.common.spell.base.ModSpellPieces|register|(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;)Lvazkii/psi/common/spell/base/ModSpellPieces$PieceContainer;
+      @|dugging\psipieces\ModSpellPieces.java|563|579|PieceTrickDebug2|class|dugging.psipieces.spell.trick.PieceTrickDebug2
+      @|dugging\psipieces\ModSpellPieces.java|587|598|LPieceNames|class|dugging.psipieces.lib.LPieceNames
+      @|dugging\psipieces\ModSpellPieces.java|599|611|TRICK_DEBUG2|field|dugging.psipieces.lib.LPieceNames|TRICK_DEBUG2
+      @|dugging\psipieces\ModSpellPieces.java|613|627|LibPieceGroups|class|vazkii.psi.common.lib.LibPieceGroups
+      @|dugging\psipieces\ModSpellPieces.java|628|638|TUTORIAL_1|field|vazkii.psi.common.lib.LibPieceGroups|TUTORIAL_1
+      @|dugging\psipieces\ModSpellPieces.java|649|657|trickTag|field|dugging.psipieces.ModSpellPieces|trickTag
+      @|dugging\psipieces\ModSpellPieces.java|660|668|register|method|vazkii.psi.common.spell.base.ModSpellPieces|register|(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;)Lvazkii/psi/common/spell/base/ModSpellPieces$PieceContainer;
+      @|dugging\psipieces\ModSpellPieces.java|669|682|PieceTrickTag|class|dugging.psipieces.spell.trick.PieceTrickTag
+      @|dugging\psipieces\ModSpellPieces.java|690|701|LPieceNames|class|dugging.psipieces.lib.LPieceNames
+      @|dugging\psipieces\ModSpellPieces.java|702|711|TRICK_TAG|field|dugging.psipieces.lib.LPieceNames|TRICK_TAG
+      @|dugging\psipieces\ModSpellPieces.java|713|727|LibPieceGroups|class|vazkii.psi.common.lib.LibPieceGroups
+      @|dugging\psipieces\ModSpellPieces.java|728|738|TUTORIAL_1|field|vazkii.psi.common.lib.LibPieceGroups|TUTORIAL_1
+   Method End: init()V
+Class End  : dugging.psipieces.ModSpellPieces
+endProcessing "dugging\psipieces\ModSpellPieces.java"
+
+startProcessing "dugging\psipieces\lib\LPieceNames.java" md5: c14735c0ab25b3413f1cffe708a293c2
+Cache Hit!
+@|dugging\psipieces\lib\LPieceNames.java|8|29|dugging.psipieces.lib|package|dugging.psipieces.lib|(file)
+Class Start: dugging.psipieces.lib.LPieceNames
+   @|dugging\psipieces\lib\LPieceNames.java|45|56|LPieceNames|class|dugging.psipieces.lib.LPieceNames
+   @|dugging\psipieces\lib\LPieceNames.java|83|89|String|class|java.lang.String
+   @|dugging\psipieces\lib\LPieceNames.java|83|89|String|class|java.lang.String
+   @|dugging\psipieces\lib\LPieceNames.java|90|102|TRICK_DEBUG2|field|dugging.psipieces.lib.LPieceNames|TRICK_DEBUG2|
+   @|dugging\psipieces\lib\LPieceNames.java|144|150|String|class|java.lang.String
+   @|dugging\psipieces\lib\LPieceNames.java|144|150|String|class|java.lang.String
+   @|dugging\psipieces\lib\LPieceNames.java|151|160|TRICK_TAG|field|dugging.psipieces.lib.LPieceNames|TRICK_TAG|
+Class End  : dugging.psipieces.lib.LPieceNames
+endProcessing "dugging\psipieces\lib\LPieceNames.java"
+
+startProcessing "dugging\psipieces\lib\LResources.java" md5: 06fbd2159463cb6b38bd8fd5f53d0be6
+Cache Hit!
+@|dugging\psipieces\lib\LResources.java|8|29|dugging.psipieces.lib|package|dugging.psipieces.lib|(file)
+Class Start: dugging.psipieces.lib.LResources
+   @|dugging\psipieces\lib\LResources.java|45|55|LResources|class|dugging.psipieces.lib.LResources
+   @|dugging\psipieces\lib\LResources.java|82|88|String|class|java.lang.String
+   @|dugging\psipieces\lib\LResources.java|82|88|String|class|java.lang.String
+   @|dugging\psipieces\lib\LResources.java|89|99|PREFIX_MOD|field|dugging.psipieces.lib.LResources|PREFIX_MOD|
+   @|dugging\psipieces\lib\LResources.java|141|147|String|class|java.lang.String
+   @|dugging\psipieces\lib\LResources.java|141|147|String|class|java.lang.String
+   @|dugging\psipieces\lib\LResources.java|148|160|PREFIX_SPELL|field|dugging.psipieces.lib.LResources|PREFIX_SPELL|
+   @|dugging\psipieces\lib\LResources.java|163|173|PREFIX_MOD|field|dugging.psipieces.lib.LResources|PREFIX_MOD
+Class End  : dugging.psipieces.lib.LResources
+endProcessing "dugging\psipieces\lib\LResources.java"
+
+startProcessing "dugging\psipieces\proxy\ClientProxy.java" md5: 2e1af3a0929cf8ff81d5c4adaadbb0bd
+Cache Hit!
+@|dugging\psipieces\proxy\ClientProxy.java|8|31|dugging.psipieces.proxy|package|dugging.psipieces.proxy|(file)
+Class Start: dugging.psipieces.proxy.ClientProxy
+   @|dugging\psipieces\proxy\ClientProxy.java|47|58|ClientProxy|class|dugging.psipieces.proxy.ClientProxy
+   @|dugging\psipieces\proxy\ClientProxy.java|67|78|CommonProxy|class|dugging.psipieces.proxy.CommonProxy
+Class End  : dugging.psipieces.proxy.ClientProxy
+endProcessing "dugging\psipieces\proxy\ClientProxy.java"
+
+startProcessing "dugging\psipieces\proxy\CommonProxy.java" md5: 48c75079af590a6b1a7fd444563c1ffd
+Cache Hit!
+@|dugging\psipieces\proxy\CommonProxy.java|8|31|dugging.psipieces.proxy|package|dugging.psipieces.proxy|(file)
+Class Start: dugging.psipieces.proxy.CommonProxy
+   @|dugging\psipieces\proxy\CommonProxy.java|127|138|CommonProxy|class|dugging.psipieces.proxy.CommonProxy
+   @|dugging\psipieces\proxy\CommonProxy.java|150|156|IProxy|class|dugging.psipieces.proxy.IProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|dugging\psipieces\proxy\CommonProxy.java|210|215|event|param|dugging.psipieces.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|dugging\psipieces\proxy\CommonProxy.java|176|183|preInit|method|dugging.psipieces.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|dugging\psipieces\proxy\CommonProxy.java|184|209|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|dugging\psipieces\proxy\CommonProxy.java|226|258|dugging.psipieces.ModSpellPieces|class|dugging.psipieces.ModSpellPieces
+      @|dugging\psipieces\proxy\CommonProxy.java|259|263|init|method|dugging.psipieces.ModSpellPieces|init|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+Class End  : dugging.psipieces.proxy.CommonProxy
+endProcessing "dugging\psipieces\proxy\CommonProxy.java"
+
+startProcessing "dugging\psipieces\proxy\IProxy.java" md5: 022f226a588d38946d8f7b2e1a8fe469
+Cache Hit!
+@|dugging\psipieces\proxy\IProxy.java|8|31|dugging.psipieces.proxy|package|dugging.psipieces.proxy|(file)
+Class Start: dugging.psipieces.proxy.IProxy
+   @|dugging\psipieces\proxy\IProxy.java|122|128|IProxy|class|dugging.psipieces.proxy.IProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|dugging\psipieces\proxy\IProxy.java|174|179|event|param|dugging.psipieces.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|dugging\psipieces\proxy\IProxy.java|140|147|preInit|method|dugging.psipieces.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|dugging\psipieces\proxy\IProxy.java|148|173|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+Class End  : dugging.psipieces.proxy.IProxy
+endProcessing "dugging\psipieces\proxy\IProxy.java"
+
+startProcessing "dugging\psipieces\proxy\ServerProxy.java" md5: f85f76bfd96d41efe188fb8c0c30d4d5
+Cache Hit!
+@|dugging\psipieces\proxy\ServerProxy.java|8|31|dugging.psipieces.proxy|package|dugging.psipieces.proxy|(file)
+Class Start: dugging.psipieces.proxy.ServerProxy
+   @|dugging\psipieces\proxy\ServerProxy.java|47|58|ServerProxy|class|dugging.psipieces.proxy.ServerProxy
+   @|dugging\psipieces\proxy\ServerProxy.java|67|78|CommonProxy|class|dugging.psipieces.proxy.CommonProxy
+Class End  : dugging.psipieces.proxy.ServerProxy
+endProcessing "dugging\psipieces\proxy\ServerProxy.java"
+
+startProcessing "dugging\psipieces\psipieces.java" md5: 754a29b634896c82ab2cf8214d46ba88
+Cache Hit!
+@|dugging\psipieces\psipieces.java|8|25|dugging.psipieces|package|dugging.psipieces|(file)
+Class Start: dugging.psipieces.psipieces
+   @|dugging\psipieces\psipieces.java|369|372|Mod|class|net.minecraftforge.fml.common.Mod
+   @|dugging\psipieces\psipieces.java|373|378|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|dugging\psipieces\psipieces.java|392|396|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|dugging\psipieces\psipieces.java|411|418|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|dugging\psipieces\psipieces.java|448|457|psipieces|class|dugging.psipieces.psipieces
+   @|dugging\psipieces\psipieces.java|509|518|psipieces|class|dugging.psipieces.psipieces
+   @|dugging\psipieces\psipieces.java|465|477|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|dugging\psipieces\psipieces.java|509|518|psipieces|class|dugging.psipieces.psipieces
+   @|dugging\psipieces\psipieces.java|519|527|instance|field|dugging.psipieces.psipieces|instance|
+   @|dugging\psipieces\psipieces.java|668|674|IProxy|class|dugging.psipieces.proxy.IProxy
+   @|dugging\psipieces\psipieces.java|535|545|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|dugging\psipieces\psipieces.java|546|556|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|dugging\psipieces\psipieces.java|598|608|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|dugging\psipieces\psipieces.java|668|674|IProxy|class|dugging.psipieces.proxy.IProxy
+   @|dugging\psipieces\psipieces.java|675|680|proxy|field|dugging.psipieces.psipieces|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|dugging\psipieces\psipieces.java|755|760|event|param|dugging.psipieces.psipieces|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|dugging\psipieces\psipieces.java|688|704|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|dugging\psipieces\psipieces.java|721|728|preInit|method|dugging.psipieces.psipieces|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|dugging\psipieces\psipieces.java|729|754|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|dugging\psipieces\psipieces.java|771|776|proxy|field|dugging.psipieces.psipieces|proxy
+      @|dugging\psipieces\psipieces.java|777|784|preInit|method|dugging.psipieces.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|dugging\psipieces\psipieces.java|785|790|event|param|dugging.psipieces.psipieces|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|dugging\psipieces\psipieces.java|866|871|event|param|dugging.psipieces.psipieces|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|dugging\psipieces\psipieces.java|805|821|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|dugging\psipieces\psipieces.java|838|842|init|method|dugging.psipieces.psipieces|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|dugging\psipieces\psipieces.java|843|865|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|dugging\psipieces\psipieces.java|956|961|event|param|dugging.psipieces.psipieces|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|dugging\psipieces\psipieces.java|887|903|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|dugging\psipieces\psipieces.java|920|928|postInit|method|dugging.psipieces.psipieces|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|dugging\psipieces\psipieces.java|929|955|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : dugging.psipieces.psipieces
+endProcessing "dugging\psipieces\psipieces.java"
+
+startProcessing "dugging\psipieces\spell\trick\PieceTrickDebug2.java" md5: ceb634911fafd9c75c9b20e7402fdcb0
+Cache Hit!
+@|dugging\psipieces\spell\trick\PieceTrickDebug2.java|8|37|dugging.psipieces.spell.trick|package|dugging.psipieces.spell.trick|(file)
+Class Start: dugging.psipieces.spell.trick.PieceTrickDebug2
+   @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|186|202|PieceTrickDebug2|class|dugging.psipieces.spell.trick.PieceTrickDebug2
+   @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|211|221|PieceTrick|class|vazkii.psi.api.spell.piece.PieceTrick
+   Method Start: PieceTrickDebug2(Lvazkii/psi/api/spell/Spell;)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|258|263|spell|param|dugging.psipieces.spell.trick.PieceTrickDebug2|PieceTrickDebug2|(Lvazkii/psi/api/spell/Spell;)V|spell|0
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|235|251|PieceTrickDebug2|method|dugging.psipieces.spell.trick.PieceTrickDebug2|PieceTrickDebug2|(Lvazkii/psi/api/spell/Spell;)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|252|257|Spell|class|vazkii.psi.api.spell.Spell
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|280|285|spell|param|dugging.psipieces.spell.trick.PieceTrickDebug2|PieceTrickDebug2|(Lvazkii/psi/api/spell/Spell;)V|spell|0
+   Method End: PieceTrickDebug2(Lvazkii/psi/api/spell/Spell;)V
+   Method Start: initParams()V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|300|308|Override|class|java.lang.Override
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|325|335|initParams|method|vazkii.psi.api.spell.SpellPiece|initParams|()V
+   Method End: initParams()V
+   Method Start: addToMetadata(Lvazkii/psi/api/spell/SpellMetadata;)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|489|493|meta|param|dugging.psipieces.spell.trick.PieceTrickDebug2|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V|meta|0
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|461|474|addToMetadata|method|vazkii.psi.api.spell.SpellPiece|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|475|488|SpellMetadata|class|vazkii.psi.api.spell.SpellMetadata
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|502|527|SpellCompilationException|class|vazkii.psi.api.spell.SpellCompilationException
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|544|557|addToMetadata|method|vazkii.psi.api.spell.SpellPiece|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|558|562|meta|param|dugging.psipieces.spell.trick.PieceTrickDebug2|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V|meta|0
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|573|577|meta|param|dugging.psipieces.spell.trick.PieceTrickDebug2|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V|meta|0
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|578|585|addStat|method|vazkii.psi.api.spell.SpellMetadata|addStat|(Lvazkii/psi/api/spell/EnumSpellStat;I)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|586|599|EnumSpellStat|class|vazkii.psi.api.spell.EnumSpellStat
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|600|607|POTENCY|field|vazkii.psi.api.spell.EnumSpellStat|POTENCY
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|621|625|meta|param|dugging.psipieces.spell.trick.PieceTrickDebug2|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V|meta|0
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|626|633|addStat|method|vazkii.psi.api.spell.SpellMetadata|addStat|(Lvazkii/psi/api/spell/EnumSpellStat;I)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|634|647|EnumSpellStat|class|vazkii.psi.api.spell.EnumSpellStat
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|648|652|COST|field|vazkii.psi.api.spell.EnumSpellStat|COST
+   Method End: addToMetadata(Lvazkii/psi/api/spell/SpellMetadata;)V
+   Method Start: execute(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|705|712|context|param|dugging.psipieces.spell.trick.PieceTrickDebug2|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|677|683|Object|class|java.lang.Object
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|684|691|execute|method|vazkii.psi.api.spell.SpellPiece|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|692|704|SpellContext|class|vazkii.psi.api.spell.SpellContext
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|721|742|SpellRuntimeException|class|vazkii.psi.api.spell.SpellRuntimeException
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|753|759|System|class|java.lang.System
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|760|763|out|field|java.lang.System|out
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|764|771|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|790|796|System|class|java.lang.System
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|797|800|out|field|java.lang.System|out
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|801|808|println|method|java.io.PrintStream|println|(Ljava/lang/Object;)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|809|816|context|param|dugging.psipieces.spell.trick.PieceTrickDebug2|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|817|823|caster|field|vazkii.psi.api.spell.SpellContext|caster
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|852|858|System|class|java.lang.System
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|859|862|out|field|java.lang.System|out
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|863|870|println|method|java.io.PrintStream|println|(Ljava/lang/Object;)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|871|878|context|param|dugging.psipieces.spell.trick.PieceTrickDebug2|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|879|885|caster|field|vazkii.psi.api.spell.SpellContext|caster
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|886|894|worldObj|field|net.minecraft.entity.Entity|worldObj
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|914|923|Exception|class|java.lang.Exception
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|941|947|System|class|java.lang.System
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|948|951|out|field|java.lang.System|out
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|952|959|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|991|998|context|param|dugging.psipieces.spell.trick.PieceTrickDebug2|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|999|1005|caster|field|vazkii.psi.api.spell.SpellContext|caster
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|1006|1014|worldObj|field|net.minecraft.entity.Entity|worldObj
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|1015|1023|isRemote|field|net.minecraft.world.World|isRemote
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|1080|1087|context|param|dugging.psipieces.spell.trick.PieceTrickDebug2|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|1088|1094|caster|field|vazkii.psi.api.spell.SpellContext|caster
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|1095|1109|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|dugging\psipieces\spell\trick\PieceTrickDebug2.java|1114|1133|TextComponentString|class|net.minecraft.util.text.TextComponentString
+   Method End: execute(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;
+Class End  : dugging.psipieces.spell.trick.PieceTrickDebug2
+endProcessing "dugging\psipieces\spell\trick\PieceTrickDebug2.java"
+
+startProcessing "dugging\psipieces\spell\trick\PieceTrickTag.java" md5: 7f83d5f8c117795d1f6e71f91934b62f
+@|dugging\psipieces\spell\trick\PieceTrickTag.java|8|37|dugging.psipieces.spell.trick|package|dugging.psipieces.spell.trick|(file)
+Class Start: dugging.psipieces.spell.trick.PieceTrickTag
+   @|dugging\psipieces\spell\trick\PieceTrickTag.java|331|344|PieceTrickTag|class|dugging.psipieces.spell.trick.PieceTrickTag
+   @|dugging\psipieces\spell\trick\PieceTrickTag.java|353|363|PieceTrick|class|vazkii.psi.api.spell.piece.PieceTrick
+   @|dugging\psipieces\spell\trick\PieceTrickTag.java|370|380|SpellParam|class|vazkii.psi.api.spell.SpellParam
+   @|dugging\psipieces\spell\trick\PieceTrickTag.java|370|380|SpellParam|class|vazkii.psi.api.spell.SpellParam
+   @|dugging\psipieces\spell\trick\PieceTrickTag.java|381|387|target|field|dugging.psipieces.spell.trick.PieceTrickTag|target|
+   Method Start: PieceTrickTag(Lvazkii/psi/api/spell/Spell;)V
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|421|426|spell|param|dugging.psipieces.spell.trick.PieceTrickTag|PieceTrickTag|(Lvazkii/psi/api/spell/Spell;)V|spell|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|401|414|PieceTrickTag|method|dugging.psipieces.spell.trick.PieceTrickTag|PieceTrickTag|(Lvazkii/psi/api/spell/Spell;)V
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|415|420|Spell|class|vazkii.psi.api.spell.Spell
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|443|448|spell|param|dugging.psipieces.spell.trick.PieceTrickTag|PieceTrickTag|(Lvazkii/psi/api/spell/Spell;)V|spell|0
+   Method End: PieceTrickTag(Lvazkii/psi/api/spell/Spell;)V
+   Method Start: initParams()V
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|463|471|Override|class|java.lang.Override
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|488|498|initParams|method|vazkii.psi.api.spell.SpellPiece|initParams|()V
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|515|523|addParam|method|vazkii.psi.api.spell.SpellPiece|addParam|(Lvazkii/psi/api/spell/SpellParam;)V
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|524|530|target|field|dugging.psipieces.spell.trick.PieceTrickTag|target
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|537|548|ParamEntity|class|vazkii.psi.api.spell.param.ParamEntity
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|549|559|SpellParam|class|vazkii.psi.api.spell.SpellParam
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|560|579|GENERIC_NAME_TARGET|field|vazkii.psi.api.spell.SpellParam|GENERIC_NAME_TARGET
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|581|591|SpellParam|class|vazkii.psi.api.spell.SpellParam
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|592|596|BLUE|field|vazkii.psi.api.spell.SpellParam|BLUE
+   Method End: initParams()V
+   Method Start: addToMetadata(Lvazkii/psi/api/spell/SpellMetadata;)V
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|665|669|meta|param|dugging.psipieces.spell.trick.PieceTrickTag|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V|meta|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|637|650|addToMetadata|method|vazkii.psi.api.spell.SpellPiece|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|651|664|SpellMetadata|class|vazkii.psi.api.spell.SpellMetadata
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|678|703|SpellCompilationException|class|vazkii.psi.api.spell.SpellCompilationException
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|720|733|addToMetadata|method|vazkii.psi.api.spell.SpellPiece|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|734|738|meta|param|dugging.psipieces.spell.trick.PieceTrickTag|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V|meta|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|749|753|meta|param|dugging.psipieces.spell.trick.PieceTrickTag|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V|meta|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|754|761|addStat|method|vazkii.psi.api.spell.SpellMetadata|addStat|(Lvazkii/psi/api/spell/EnumSpellStat;I)V
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|762|775|EnumSpellStat|class|vazkii.psi.api.spell.EnumSpellStat
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|776|783|POTENCY|field|vazkii.psi.api.spell.EnumSpellStat|POTENCY
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|798|802|meta|param|dugging.psipieces.spell.trick.PieceTrickTag|addToMetadata|(Lvazkii/psi/api/spell/SpellMetadata;)V|meta|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|803|810|addStat|method|vazkii.psi.api.spell.SpellMetadata|addStat|(Lvazkii/psi/api/spell/EnumSpellStat;I)V
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|811|824|EnumSpellStat|class|vazkii.psi.api.spell.EnumSpellStat
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|825|829|COST|field|vazkii.psi.api.spell.EnumSpellStat|COST
+   Method End: addToMetadata(Lvazkii/psi/api/spell/SpellMetadata;)V
+   Method Start: execute(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|883|890|context|param|dugging.psipieces.spell.trick.PieceTrickTag|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|855|861|Object|class|java.lang.Object
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|862|869|execute|method|vazkii.psi.api.spell.SpellPiece|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|870|882|SpellContext|class|vazkii.psi.api.spell.SpellContext
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|899|920|SpellRuntimeException|class|vazkii.psi.api.spell.SpellRuntimeException
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|934|941|context|param|dugging.psipieces.spell.trick.PieceTrickTag|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|942|948|caster|field|vazkii.psi.api.spell.SpellContext|caster
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|949|957|worldObj|field|net.minecraft.entity.Entity|worldObj
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|958|966|isRemote|field|net.minecraft.world.World|isRemote
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1012|1019|context|param|dugging.psipieces.spell.trick.PieceTrickTag|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1020|1033|loopcastIndex|field|vazkii.psi.api.spell.SpellContext|loopcastIndex
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1096|1102|Entity|class|net.minecraft.entity.Entity
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1115|1128|getParamValue|method|vazkii.psi.api.spell.SpellPiece|getParamValue|(Lvazkii/psi/api/spell/SpellContext;Lvazkii/psi/api/spell/SpellParam;)Ljava/lang/Object;
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1129|1136|context|param|dugging.psipieces.spell.trick.PieceTrickTag|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1143|1149|target|field|dugging.psipieces.spell.trick.PieceTrickTag|target
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1176|1183|context|param|dugging.psipieces.spell.trick.PieceTrickTag|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1184|1194|focalPoint|field|vazkii.psi.api.spell.SpellContext|focalPoint
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1263|1275|SpellContext|class|vazkii.psi.api.spell.SpellContext
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1291|1303|SpellContext|class|vazkii.psi.api.spell.SpellContext
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1343|1359|setCompiledSpell|method|vazkii.psi.api.spell.SpellContext|setCompiledSpell|(Lvazkii/psi/api/spell/CompiledSpell;)Lvazkii/psi/api/spell/SpellContext;
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1360|1367|context|param|dugging.psipieces.spell.trick.PieceTrickTag|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1368|1374|cspell|field|vazkii.psi.api.spell.SpellContext|cspell
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1402|1408|caster|field|vazkii.psi.api.spell.SpellContext|caster
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1411|1418|context|param|dugging.psipieces.spell.trick.PieceTrickTag|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1419|1425|caster|field|vazkii.psi.api.spell.SpellContext|caster
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1452|1462|focalPoint|field|vazkii.psi.api.spell.SpellContext|focalPoint
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1470|1483|getParamValue|method|vazkii.psi.api.spell.SpellPiece|getParamValue|(Lvazkii/psi/api/spell/SpellContext;Lvazkii/psi/api/spell/SpellParam;)Ljava/lang/Object;
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1484|1491|context|param|dugging.psipieces.spell.trick.PieceTrickTag|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1498|1504|target|field|dugging.psipieces.spell.trick.PieceTrickTag|target
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1532|1548|setLoopcastIndex|method|vazkii.psi.api.spell.SpellContext|setLoopcastIndex|(I)Lvazkii/psi/api/spell/SpellContext;
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1549|1556|context|param|dugging.psipieces.spell.trick.PieceTrickTag|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1557|1570|loopcastIndex|field|vazkii.psi.api.spell.SpellContext|loopcastIndex
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1591|1608|PlayerDataHandler|class|vazkii.psi.common.core.handler.PlayerDataHandler
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1609|1612|get|method|vazkii.psi.common.core.handler.PlayerDataHandler|get|(Lnet/minecraft/entity/player/EntityPlayer;)Lvazkii/psi/common/core/handler/PlayerDataHandler$PlayerData;
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1613|1620|context|param|dugging.psipieces.spell.trick.PieceTrickTag|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1621|1627|caster|field|vazkii.psi.api.spell.SpellContext|caster
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1629|1638|deductPsi|method|vazkii.psi.common.core.handler.PlayerDataHandler.PlayerData|deductPsi|(IIZ)V
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1639|1646|context|param|dugging.psipieces.spell.trick.PieceTrickTag|execute|(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;|context|0
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1647|1653|cspell|field|vazkii.psi.api.spell.SpellContext|cspell
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1654|1662|metadata|field|vazkii.psi.api.spell.CompiledSpell|metadata
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1663|1668|stats|field|vazkii.psi.api.spell.SpellMetadata|stats
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1669|1672|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1673|1686|EnumSpellStat|class|vazkii.psi.api.spell.EnumSpellStat
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1687|1691|COST|field|vazkii.psi.api.spell.EnumSpellStat|COST
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1730|1736|cspell|field|vazkii.psi.api.spell.SpellContext|cspell
+      @|dugging\psipieces\spell\trick\PieceTrickTag.java|1737|1748|safeExecute|method|vazkii.psi.api.spell.CompiledSpell|safeExecute|(Lvazkii/psi/api/spell/SpellContext;)V
+   Method End: execute(Lvazkii/psi/api/spell/SpellContext;)Ljava/lang/Object;
+Class End  : dugging.psipieces.spell.trick.PieceTrickTag
+endProcessing "dugging\psipieces\spell\trick\PieceTrickTag.java"
+

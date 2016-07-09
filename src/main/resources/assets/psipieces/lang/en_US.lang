@@ -1,0 +1,6 @@
+# SPELl PIECE NAMES
+# --Tricks
+psi.spellpiece.trickDebug2=Trick: Hello
+psi.spellpiece.trickDebug2.desc=A friendly hello.
+psi.spellpiece.trickTag=Trick: Spell Tag
+psi.spellpiece.trickTag.desc=Tags the target with the current spell.

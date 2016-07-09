@@ -1,0 +1,241 @@
+This mapping 'snapshot_20160518' was designed for MC 1.9.4! Use at your own peril.
+#################################################
+         ForgeGradle 2.2-SNAPSHOT-0447b4e        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar UP-TO-DATE
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 1050/1110   94%
+:makeStart
+:runClient
+2016-07-08 12:16:56,945 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2016-07-08 12:16:56,948 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[12:16:56] [main/INFO] [GradleStart]: Extra: []
+[12:16:57] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/dugging/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[12:16:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:16:57] [main/INFO] [FML]: Forge Mod Loader version 12.18.0.2000 for Minecraft 1.10 loading
+[12:16:57] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_91, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_91\jre
+[12:16:57] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[12:16:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[12:16:57] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[12:16:57] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[12:16:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:16:57] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[12:16:57] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[12:16:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:16:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:16:57] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+2016-07-08 12:16:58,201 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2016-07-08 12:16:58,219 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2016-07-08 12:16:58,221 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[12:16:58] [Client thread/INFO]: Setting user: Player878
+[12:17:00] [Client thread/WARN]: Skipping bad option: lastServer:
+[12:17:00] [Client thread/INFO]: LWJGL Version: 2.9.4
+[12:17:01] [Client thread/INFO] [STDOUT]: [net.minecraftforge.fml.client.SplashProgress:start:221]: ---- Minecraft Crash Report ----
+// I feel sad now :(
+
+Time: 08/07/16 12:17
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_91, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 370164480 bytes (353 MB) / 595066880 bytes (567 MB) up to 1895825408 bytes (1808 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 355.82' Renderer: 'GeForce GTX 750/PCIe/SSE2'
+[12:17:01] [Client thread/INFO] [FML]: MinecraftForge v12.18.0.2000 Initialized
+[12:17:01] [Client thread/INFO] [FML]: Replaced 233 ore recipes
+[12:17:01] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[12:17:01] [Client thread/INFO] [FML]: Searching C:\Users\dugging\Desktop\Forge Modding\projects\NewMod\run\mods for mods
+[12:17:02] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[12:17:02] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, Psi, psipieces] at CLIENT
+[12:17:02] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, Psi, psipieces] at SERVER
+[12:17:03] [Client thread/ERROR] [FML]: Fatal errors were detected during the transition from CONSTRUCTING to PREINITIALIZATION. Loading cannot continue
+[12:17:03] [Client thread/ERROR] [FML]: 
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UC	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UC	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.10-12.18.0.2000-1.10.0.jar) 
+	UC	Forge{12.18.0.2000} [Minecraft Forge] (forgeSrc-1.10-12.18.0.2000-1.10.0.jar) 
+	UC	Psi{r1.0-36} [Psi] (Psi-r1.0-36-deobf.jar) 
+	UE	psipieces{1.10-1.0.0.1} [PSI Pieces] (PSIPieces-1.10-1.0.0.1.jar) 
+[12:17:03] [Client thread/ERROR] [FML]: The following problems were captured during this phase
+[12:17:03] [Client thread/ERROR] [FML]: Caught exception from psipieces
+java.lang.ClassNotFoundException: dugging.psipieces.psipieces
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_91]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_91]
+	at net.minecraftforge.fml.common.ModClassLoader.loadClass(ModClassLoader.java:72) ~[forgeSrc-1.10-12.18.0.2000-1.10.0.jar:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_91]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_91]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:483) ~[forgeSrc-1.10-12.18.0.2000-1.10.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_91]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:235) ~[forgeSrc-1.10-12.18.0.2000-1.10.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:213) ~[forgeSrc-1.10-12.18.0.2000-1.10.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_91]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:142) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:531) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:216) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:477) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:386) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_91]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_91]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	... 44 more
+[12:17:03] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:649]: ---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 08/07/16 12:17
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderException: java.lang.ClassNotFoundException: dugging.psipieces.psipieces
+	at net.minecraftforge.fml.common.LoadController.transition(LoadController.java:186)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:562)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:216)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:477)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:386)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+Caused by: java.lang.ClassNotFoundException: dugging.psipieces.psipieces
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.minecraftforge.fml.common.ModClassLoader.loadClass(ModClassLoader.java:72)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:483)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:235)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:142)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:531)
+	... 16 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 44 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_91, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 442451896 bytes (421 MB) / 720896000 bytes (687 MB) up to 1895825408 bytes (1808 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.32 Powered by Forge 12.18.0.2000 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UC	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UC	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.10-12.18.0.2000-1.10.0.jar) 
+	UC	Forge{12.18.0.2000} [Minecraft Forge] (forgeSrc-1.10-12.18.0.2000-1.10.0.jar) 
+	UC	Psi{r1.0-36} [Psi] (Psi-r1.0-36-deobf.jar) 
+	UE	psipieces{1.10-1.0.0.1} [PSI Pieces] (PSIPieces-1.10-1.0.0.1.jar) 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 355.82' Renderer: 'GeForce GTX 750/PCIe/SSE2'
+[12:17:03] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:649]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\dugging\Desktop\Forge Modding\projects\NewMod\run\.\crash-reports\crash-2016-07-08_12.17.03-client.txt
+:runClient FAILED
+
+BUILD FAILED
+
+Total time: 14.747 secs

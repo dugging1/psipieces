@@ -1,0 +1,104 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 09/07/16 16:00
+Description: Ticking entity
+
+java.lang.NullPointerException: Ticking entity
+	at dugging.psipieces.spell.trick.PieceTrickTag.execute(PieceTrickTag.java:56)
+	at vazkii.psi.api.spell.CompiledSpell$Action.execute(CompiledSpell.java:105)
+	at vazkii.psi.api.spell.CompiledSpell.execute(CompiledSpell.java:54)
+	at vazkii.psi.api.spell.CompiledSpell.safeExecute(CompiledSpell.java:75)
+	at vazkii.psi.common.entity.EntitySpellProjectile.cast(EntitySpellProjectile.java:218)
+	at vazkii.psi.common.entity.EntitySpellProjectile.cast(EntitySpellProjectile.java:194)
+	at vazkii.psi.common.entity.EntitySpellProjectile.onImpact(EntitySpellProjectile.java:190)
+	at net.minecraft.entity.projectile.EntityThrowable.onUpdate(EntityThrowable.java:265)
+	at vazkii.psi.common.entity.EntitySpellProjectile.onUpdate(EntitySpellProjectile.java:135)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2099)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:872)
+	at net.minecraft.world.World.updateEntity(World.java:2066)
+	at net.minecraft.world.World.updateEntities(World.java:1886)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:644)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:783)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:687)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:156)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:536)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at dugging.psipieces.spell.trick.PieceTrickTag.execute(PieceTrickTag.java:56)
+	at vazkii.psi.api.spell.CompiledSpell$Action.execute(CompiledSpell.java:105)
+	at vazkii.psi.api.spell.CompiledSpell.execute(CompiledSpell.java:54)
+	at vazkii.psi.api.spell.CompiledSpell.safeExecute(CompiledSpell.java:75)
+	at vazkii.psi.common.entity.EntitySpellProjectile.cast(EntitySpellProjectile.java:218)
+	at vazkii.psi.common.entity.EntitySpellProjectile.cast(EntitySpellProjectile.java:194)
+	at vazkii.psi.common.entity.EntitySpellProjectile.onImpact(EntitySpellProjectile.java:190)
+	at net.minecraft.entity.projectile.EntityThrowable.onUpdate(EntityThrowable.java:265)
+	at vazkii.psi.common.entity.EntitySpellProjectile.onUpdate(EntitySpellProjectile.java:135)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2099)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:872)
+	at net.minecraft.world.World.updateEntity(World.java:2066)
+
+-- Entity being ticked --
+Details:
+	Entity Type: Psi.psi:spellProjectile (vazkii.psi.common.entity.EntitySpellProjectile)
+	Entity ID: 17166
+	Entity Name: entity.Psi.psi:spellProjectile.name
+	Entity's Exact location: -537.14, 42.96, 968.13
+	Entity's Block location: World: (-538,42,968), Chunk: (at 6,2,8 in -34,60; contains blocks -544,0,960 to -529,255,975), Region: (-2,1; contains chunks -64,32 to -33,63, blocks -1024,0,512 to -513,255,1023)
+	Entity's Momentum: -0.44, -2.00, 0.40
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1886)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:644)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 1 total; [EntityPlayerMP['Player779'/105, l='New World', x=-533.95, y=56.00, z=965.21]]
+	Chunk stats: ServerChunkCache: 625 Drop: 0
+	Level seed: -4259737111400774486
+	Level generator: ID 01 - flat, ver 0. Features enabled: true
+	Level generator options: 3;minecraft:bedrock,3*minecraft:stone,52*minecraft:sandstone;2;
+	Level spawn location: World: (-532,4,968), Chunk: (at 12,0,8 in -34,60; contains blocks -544,0,960 to -529,255,975), Region: (-2,1; contains chunks -64,32 to -33,63, blocks -1024,0,512 to -513,255,1023)
+	Level time: 89426 game time, 89426 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 19716 (now: false), thunder time: 88565 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:783)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:687)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:156)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:536)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_91, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 630301856 bytes (601 MB) / 999817216 bytes (953 MB) up to 1895825408 bytes (1808 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.32 Powered by Forge 12.18.0.2000 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.10-12.18.0.2000-1.10.0.jar) 
+	UCHIJAAAA	Forge{12.18.0.2000} [Minecraft Forge] (forgeSrc-1.10-12.18.0.2000-1.10.0.jar) 
+	UCHIJAAAA	Psi{r1.0-36} [Psi] (Psi-r1.0-36-deobf.jar) 
+	UCHIJAAAA	psipieces{1.10-1.0.0.1} [PSI Pieces] (psipieces-1.10-1.0.0.1.jar) 
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player779'/105, l='New World', x=-533.95, y=56.00, z=965.21]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
