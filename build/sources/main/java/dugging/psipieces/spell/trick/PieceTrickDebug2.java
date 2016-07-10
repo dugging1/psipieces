@@ -15,7 +15,7 @@ public class PieceTrickDebug2 extends PieceTrick{
 
     @Override
     public void initParams(){
-        //addParam(target = new ParamAny(SpellParam.GENERIC_NAME_TARGET, SpellParam.BLUE, false));
+        //NO-PARAMS
     }
 
     public void addToMetadata(SpellMetadata meta) throws SpellCompilationException {
@@ -26,13 +26,6 @@ public class PieceTrickDebug2 extends PieceTrick{
 
 
     public Object execute(SpellContext context) throws SpellRuntimeException {
-        System.out.println("Hello");
-        System.out.println(context.caster);
-        try {
-            System.out.println(context.caster.worldObj);
-        } catch (Exception e) {
-            System.out.println("Error");
-        }
         if(context.caster.worldObj.isRemote) {
             return null;
         }else {
