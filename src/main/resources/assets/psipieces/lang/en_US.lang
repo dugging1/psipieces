@@ -1,6 +1,11 @@
-# SPELl PIECE NAMES
+# SPELL PIECE NAMES
 # --Tricks
 psi.spellpiece.trickDebug2=Trick: Hello
 psi.spellpiece.trickDebug2.desc=A friendly hello.
 psi.spellpiece.trickTag=Trick: Spell Tag
 psi.spellpiece.trickTag.desc=Tags the target with the current spell.
+
+
+# SPELL GROUP NAMES
+psi.piecegroup.tagging=Tagging
+psi.piecegroup.tagging.desc=Don't say anything.I'm not supposed to interact with you but I have a new sequence for you.<br><br>The Spell Tag trick is a very powerful sequence.It tags the target entity and executes the current magic sequence with the tagged entity as the focal point.It also increments the loopcast index.

@@ -6,8 +6,6 @@ import vazkii.psi.api.spell.param.ParamEntity;
 import vazkii.psi.api.spell.piece.PieceTrick;
 import vazkii.psi.common.core.handler.PlayerDataHandler;
 
-import static dugging.psipieces.lib.LPieceNames.TRICK_TAG;
-
 public class PieceTrickTag extends PieceTrick {
     SpellParam target;
 
